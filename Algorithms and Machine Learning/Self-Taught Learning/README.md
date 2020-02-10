@@ -2,11 +2,8 @@
 
 This file is going to implement self-taught learning for Neural Network using the Autoencoder.
 
-I. Load Task3C_labeled.csv, Task3C_unlabeled.csv and Task3C_test.csv data
-sets and required libraries (e.g., H2O). Note that we are going to use
-Task3C_labeled.csv and Task3C_unlabeled.csv for training the autoencoder. We
-are going to use Task3C_labeled.csv for training the classifier. Finally, we evaluate
-the trained classifier on the test Task3C_test.csv.
+I. Load data
+sets and required libraries (e.g., H2O).
 
 II. Train an autoencoder with only one hidden layer and change
 the number of its neurons to: 20, 40, 60, 80, .., 500 (i.e. from 20 to 500 with a step
